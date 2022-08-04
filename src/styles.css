@@ -1,0 +1,64 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+}
+
+h2 {
+  color: white;
+}
+
+form {
+  padding: 5px;
+  /* display: flex;
+  flex-direction: column;
+  border-radius: 5px; */
+}
+
+input,
+button {
+  width: 100%;
+  border: 0px;
+  background-color: gray;
+}
+
+h3 {
+  color: white;
+}
+
+button {
+  background-color: #e4141e;
+}
+
+img {
+  width: 100px;
+  height: 50px;
+}
+
+.main-content {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  padding: 10px;
+}
+
+.loginBody {
+  max-width: 400px;
+  border: 1px solid white;
+}
+
+@media screen and (min-width: 350px) {
+  .loginBody {
+    margin: 0 auto;
+    height: 100vh;
+  }
+  .root {
+    background-image: url("https://i.imgur.com/fqPQ9mQ.jpg");
+  }
+}
